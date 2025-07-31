@@ -1,122 +1,113 @@
-# 📊 Results and Insights – Oakcrest Medical Dashboard
+# 🏥 Oakcrest Medical – Power BI Dashboard Project
 
-This document presents the full analytical insights derived from a fictional healthcare dashboard built in Power BI. The visuals and metrics simulate operational data from **Oakcrest Medical**, a placeholder for a real private hospital where I volunteered as a data analyst. The insights span from **2022 to 2025** and are categorized into three areas: **Admissions**, **Procedures**, and **Billings**.
+## 📌 Project Overview
 
----
+As a volunteer data analyst at *Oakcrest Medical*, a private healthcare facility, I worked on uncovering key patterns, operational bottlenecks, and financial insights from hospital data spanning **2022 to 2025**. This dashboard was built to support internal performance reviews and strategic decision-making.
 
-## 🏥 Admissions Page
-
-### 📌 Key KPIs Tracked:
-- Total Admissions
-- Readmission Rate
-- Average Length of Stay
-- Patients Admitted (Unique count)
-
-### 📈 Year-by-Year Insights
-
-#### 🔹 2022
-- Admissions began at a modest rate, likely due to partial data collection at the start of the year.
-- Average length of stay was highest this year, hinting at longer recovery or care cycles.
-- Readmission rate was comparatively lower, possibly due to fewer complex cases.
-
-#### 🔹 2023
-- Significant increase in total admissions, suggesting improved operations or service coverage.
-- Average length of stay normalized, and readmission rate slightly rose.
-- Several departments saw a jump in activity, including **Emergency Medicine** and **Pediatrics**.
-
-#### 🔹 2024
-- Peak admission year — total admissions were at their highest.
-- Readmission rate slightly decreased, indicating better patient management.
-- Average stay was lowest — improved efficiency or care procedures.
-
-#### 🔹 2025
-- Admissions dipped slightly but remained higher than 2022–2023.
-- Readmission rate and stay duration held steady, signaling stable operational control.
-
-### 📊 Visual Insights
-- **Admissions by Month**: Seasonal fluctuations evident — spikes in Q1 and Q3.
-- **Discharge Status Breakdown**: Majority discharged as “Recovered”; minor counts of “Referred” and “Deceased”.
-- **Admissions by Department**: Emergency, Internal Medicine, and Surgery handled the bulk of admissions.
+> ℹ️ **Disclaimer:** For confidentiality reasons, I recreated this analysis using fictional data and renamed the institution *Oakcrest Medical*. The structure, techniques, and insights reflect the real project I completed during my volunteer role.
 
 ---
 
-## 🧪 Procedures Page
+## 🎯 Project Objectives
 
-### 📌 Key KPIs Tracked:
-- Total Procedures Performed
-- Average Procedure Cost
-- Procedure Success Rate (%)
-- Repeat Procedure Rate (%)
-
-### 📈 Year-by-Year Insights
-
-#### 🔹 2022
-- Fewer total procedures performed — possibly the baseline year for system implementation.
-- High success rate and very low repeat rate, suggesting basic cases were handled.
-
-#### 🔹 2023
-- Procedure count rose ~35% compared to 2022.
-- Costs rose marginally; slight dip in success rate indicated a rise in complexity.
-- Repeat procedures also slightly increased.
-
-#### 🔹 2024
-- Peak year for procedures — sharp rise in both elective and emergency operations.
-- Average cost rose again but matched national expectations.
-- Success rate remained stable around 90%.
-
-#### 🔹 2025
-- Slight decline in procedure volume.
-- Repeat rate rose marginally, possibly due to patient follow-ups from 2024.
-- High-performing departments: **Surgery**, **Radiology**, and **Cardiology**.
-
-### 📊 Visual Insights
-- **Procedures Over Time**: Clear upward trend in utilization and service expansion.
-- **Outcomes by Department**: Surgery consistently has the highest success volume.
-- **Repeat Procedure % by Type**: Few high-repeat procedures (e.g., CT Scan, Dialysis).
-- **Average Cost by Procedure**: Most expensive: **Orthopedic Surgery** and **Neurosurgery**.
+- Track admission trends and patient flow across departments  
+- Analyze the success, cost, and recurrence of medical procedures  
+- Evaluate billing recovery and outstanding balances across payment types  
+- Provide leadership with an interactive, insight-driven report for decision support  
 
 ---
 
-## 💳 Billing Page
+## 🗂️ Dataset Overview
 
-### 📌 Key KPIs Tracked:
-- Total Billing Amount
-- Amount Paid
-- Recovery Rate (% Paid / Billed)
-- Outstanding Balance
+The fictional dataset simulates 4 years of hospital operations with the following CSV files:
 
-### 📈 Year-by-Year Insights
+| Table         | Description |
+|---------------|-------------|
+| `patients.csv`     | Demographic and contact data of 27,000+ patients |
+| `admissions.csv`   | Records of patient check-in and discharge |
+| `procedures.csv`   | Treatments and clinical operations performed |
+| `departments.csv`  | Hospital departments and their capacity |
+| `billing.csv`      | Total cost, amount paid, and coverage breakdowns |
 
-#### 🔹 2022
-- Billing activity began gradually; recovery rate was above 60%.
-- HMO and Cash payments were most common.
-- Full and partial coverage types dominated.
+---
 
-#### 🔹 2023
-- Total billing volume increased significantly.
-- Slight dip in recovery rate (~58%) due to rising outstanding balances.
-- Foreign insurance and NHIS gained more presence.
+## 💡 Key Features
 
-#### 🔹 2024
-- Billing peaked across the board; cash payments also highest this year.
-- Recovery rate improved slightly (~61%) due to policy changes.
-- Partial coverage cases increased.
+- 🔄 Calendar-linked date filtering across all report pages  
+- 📊 Dynamic KPIs for each area (Admissions, Procedures, Billing)  
+- 📈 Year-on-year visual trends with insights from 2022–2025  
+- 📌 Departmental and payment-type breakdowns  
+- 🛠️ Built with Power BI and simulated from SQL-derived data  
 
-#### 🔹 2025
-- Billing remained strong, with foreign insurance handling bigger cases.
-- Recovery rate dropped marginally — possibly billing delays.
-- Outstanding balances climbed, especially in **Surgery** and **Pediatrics**.
+---
 
-### 📊 Visual Insights
-- **Billing vs Paid (Monthly)**: Consistent gap seen across all months.
-- **Total Paid by Payment Type**: HMO, NHIS, and Foreign Insurance dominate large bills.
-- **Total Paid by Coverage Type**: Partial coverage cases contribute to most of the balance gaps.
-- **Billing vs Paid by Department**: Emergency and Surgery have the largest payment volumes.
+## 📌 Dashboard Pages
+
+### 1. Admissions Overview
+- Total admissions, readmission rate, avg. length of stay  
+- Admissions by department, discharge status  
+- Monthly admission patterns and department performance
+
+### 2. Procedures Analysis
+- Volume and outcome of procedures by type and department  
+- Avg. procedure cost and repeat rate  
+- Success rate trends and outcome tables
+
+### 3. Billing Summary
+- Total billings vs. amount paid and outstanding balance  
+- Recovery rate, payment type and coverage analysis  
+- Departmental billing breakdowns
+
+---
+
+## 🛠️ Tools Used
+
+| Tool       | Purpose                       |
+|------------|-------------------------------|
+| Power BI   | Dashboard creation and interactivity |
+| DAX        | Custom KPI calculations and filters |
+| CSV Files  | clean and structured datasets as source|
+| Power Query| Data transformation and modelling |                                        |
+---
+
+## 🔐 Ethical Considerations
+
+This project is a **simulation of a real volunteer engagement**. While I worked with actual hospital data during the role, this version uses false names and generated data to respect the institution’s privacy. The project retains the same analytical logic and visualization methods.
+
+---
+
+## 📁 Repository Structure
+
+```
+Oakcrest_Medical/
+│
+├── data/                         # Contains all CSV files
+│   ├── patients.csv
+│   ├── admissions.csv
+│   ├── procedures.csv
+│   ├── departments.csv
+│   └── billing.csv
+│
+├── README.md                  # This file
+│                  
+│
+├── documentation/
+│   └── Results_and_Insights.md    # Full KPI summaries and visual insights
+│
+├── images/                     
+│   └── Results_and_Insights.md   # Dashboard screenshots 
+├
+├── Oakcrest_dashboard.pbix       # Power BI source file
+```
+
+---
+
+## 📊 Results & Insights
+
+Full analysis is presented separately in [Results_and_Insights.md](../OakcrestMedical_Insights/Results_and_Insights.md), broken down by year and by page (Admissions, Procedures, Billings).
 
 ---
 
 ## 📌 Final Notes
 
-- The dashboard uncovers bottlenecks, departmental trends, and systemic inefficiencies.
-- Valuable for hospital leadership, finance teams, and health policy decision-makers.
-- This fictional version replicates the logic and approach used in the real volunteer project.
+This project showcases my ability to work on sensitive data in a structured and ethical way, while building professional-grade dashboards that support healthcare analysis and performance reviews.
