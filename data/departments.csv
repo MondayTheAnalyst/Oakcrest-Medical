@@ -1,0 +1,19 @@
+DepartmentID,DepartmentName,HeadOfDepartment,Capacity
+1,Emergency Medicine,Dr. Musa Aliyu,40
+2,Cardiology,Dr. Adaeze Okafor,25
+3,Neurology,Dr. Jean-Paul Ndlovu,20
+4,Orthopedics,Dr. Emmanuel Bassey,30
+5,Pediatrics,Dr. Fatoumata Diop,35
+6,Obstetrics & Gynecology,Dr. Aisha Mohammed,32
+7,General Surgery,Dr. Tunde Adebayo,28
+8,Radiology,Dr. Chika Onoh,18
+9,Dermatology,Dr. Blessing Yakubu,15
+10,Psychiatry,Dr. Joseph Kimathi,22
+11,Infectious Diseases,Dr. Nnenna Eze,24
+12,Oncology,Dr. Sibusiso Mthembu,20
+13,"ENT (Ear, Nose, Throat)",Dr. Grace Ighalo,16
+14,Gastroenterology,Dr. Kelvin Banda,17
+15,Urology,Dr. Rukayat Bello,14
+16,Endocrinology,Dr. Pascal Kouame,12
+17,Ophthalmology,Dr. Lindiwe Ncube,18
+18,Outpatient Clinic,Dr. Henry Okon,40
