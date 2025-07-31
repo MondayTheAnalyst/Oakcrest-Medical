@@ -95,8 +95,9 @@ Oakcrest_Medical/
 │   └── Results_and_Insights.md    # Full KPI summaries and visual insights
 │
 ├── images/                     
-│   └── Results_and_Insights.md   # Dashboard screenshots 
-├
+│   └── admission.png   # Dashboard screenshots 
+├   └── billing.png
+├   └── procedure.png 
 ├── dashboard/                     # Power BI source file
     └── Oakcrest_dashboard.pbix
 
@@ -104,7 +105,7 @@ Oakcrest_Medical/
 
 ## 📊 Results & Insights
 
-Full analysis is presented separately in [Results and Insights.md](../documentation/Results and Insights .md), broken down by year and by page (Admissions, Procedures, Billings).
+Full analysis is presented separately in Results_and_Insights.md , broken down by year and by page (Admissions, Procedures, Billings).
 
 ---
 
