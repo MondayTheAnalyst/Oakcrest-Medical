@@ -97,8 +97,8 @@ Oakcrest_Medical/
 ├── images/                     
 │   └── Results_and_Insights.md   # Dashboard screenshots 
 ├
-├── Oakcrest_dashboard.pbix       # Power BI source file
-```
+├── dashboard/                     # Power BI source file
+    └── Oakcrest_dashboard.pbix
 
 ---
 
