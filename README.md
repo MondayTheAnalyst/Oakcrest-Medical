@@ -37,7 +37,7 @@ The fictional dataset simulates 4 years of hospital operations with the followin
 - 📊 Dynamic KPIs for each area (Admissions, Procedures, Billing)  
 - 📈 Year-on-year visual trends with insights from 2022–2025  
 - 📌 Departmental and payment-type breakdowns  
-- 🛠️ Built with Power BI and simulated from SQL-derived data  
+- 🛠️ Built with Power BI  
 
 ---
 
