@@ -104,7 +104,7 @@ Oakcrest_Medical/
 
 ## 📊 Results & Insights
 
-Full analysis is presented separately in [results and insights .md](../documentation/results and insights .md), broken down by year and by page (Admissions, Procedures, Billings).
+Full analysis is presented separately in [Results and Insights.md](../documentation/Results and Insights .md), broken down by year and by page (Admissions, Procedures, Billings).
 
 ---
 
